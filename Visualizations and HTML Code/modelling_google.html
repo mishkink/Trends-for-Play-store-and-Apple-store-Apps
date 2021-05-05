@@ -1,0 +1,179 @@
+<html>
+<head>
+  <title>Trends for Play store and Apple store apps</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="script.js"></script>
+  <body style="background-color:rgb(255, 254, 255);">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+  img.ex1 {
+    margin-top: 25px;
+  }
+  p.ex2{
+  
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:"PT Sans";
+    margin-bottom: 10px;
+    /* font-style:italic; */
+    color: rgb(8, 21, 131);
+    line-height: 1.2;
+    
+  }
+  </style>
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(121, 151, 14);}
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(116, 115, 167);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <center><h1  style="margin-top: 20px;" > <b> Trends for Play store and Apple store apps</b> </h1></center>    
+    <body>
+      
+      
+      <div class="navbar">
+        <a href="index.html">Introduction</a>
+        <a href="play_store.html">Play store Apps</a>
+        <a href="apple_store.html">Apple store Apps</a>
+        <a href="modelling_google.html">Modeling and Predictions</a>
+        <a href="summary.html">Summary</a>
+
+      </div>
+</body>
+
+<style>
+
+img {
+	max-width: 480px;
+	width: 100%;
+	height: auto;
+        display: block;
+        margin:20px auto;
+	
+    }
+</style>
+
+
+
+<body>
+  
+  <a target="_blank" href="https://play.google.com/store/apps/?hl=en_US&gl=US">
+    <img style="vertical-align:middle; margin:30px 650px; width: 100;" src="play.png" alt="Forest">
+  </a>
+
+  <center><h4 style="margin-left: 4; font-size: 20px;">Modelling and Predictions for Play store data</h4></center>
+  <center><h4 style="margin-left: 4; font-size: 20px;">K-Nearest Neighbors Model</h4></center>
+  
+     <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Accuracy using K-Nearest Neighbor: 92.22% </p>
+     <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Number of Neighbors: 15 </p>
+     <p class="ex2"  style="font-size:18px; margin-left: 140px;"> The k-nearest neighbors algorithm is based around the simple idea of 
+        predicting unknown values by matching them with the most similar known values. Building the model consists only of storing the 
+        training dataset. To make a prediction for a new data point, the algorithm finds the closest data points in the training dataset 
+        — its "nearest neighbors". </p>
+
+
+  
+  <a>
+    <img style="width: 500; vertical-align: middle; " src="google6" alt="Forest">  
+  </a>
+
+
+  <center><h4 style="margin-left: 4; font-size: 20px;">Random Forest Model</h4></center>
+     <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Accuracy using Random Forest Classifier: 88.1% </p>
+     <p class="ex2"  style="font-size:18px; margin-left: 140px;"> The RandomForestRegressor class of the sklearn.ensemble library is used to solve regression problems via random forest. 
+        The most important parameter of the RandomForestRegressor class is the n_estimators parameter. 
+        This parameter defines the number of trees in the random forest. </p>
+
+     <br>
+     <p class="ex2"  style="font-size:18px; margin-left: 140px;">[(10, 0.9303202723106436), (20, 0.9356555618590428), (30, 0.9366130007940713),
+         (40, 0.9373008859166636), (50, 0.9384592098639978), (60, 0.9376922378041562), (70, 0.9378804228830855), (80, 0.9382742065517078), 
+         (90, 0.9378996919921152), (100, 0.9384200487953672), (110, 0.937982724043652), (120, 0.9374650813497156), (130, 0.9377125664646933), 
+         (140, 0.9385578940014901), (150, 0.9378982046226296), (160, 0.9380323255624419), (170, 0.9380361743037164), (180, 0.9382368719438466),
+          (190, 0.9381968635516788)]
+    </p>
+    <br>
+    <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Mean Absolute Error: 0.24174189162944282</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Mean Squared Error: 0.1614253832629739</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 540px;"> Root Mean Squared Error: 0.4017777784584084</p>
+
+
+
+  
+  <a>
+    <img style="width: 500; vertical-align: middle; " src="google7" alt="Forest">  
+  </a>
+  <br>
+  <br>
+
+
+  
+  
+  

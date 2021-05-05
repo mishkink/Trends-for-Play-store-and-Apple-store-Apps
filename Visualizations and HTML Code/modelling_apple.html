@@ -1,0 +1,171 @@
+<html>
+<head>
+  <title>Trends for Play store and Apple store apps</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="script.js"></script>
+  <body style="background-color:rgb(255, 254, 255);">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+  img.ex1 {
+    margin-top: 25px;
+  }
+  p.ex2{
+  
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:"PT Sans";
+    margin-bottom: 10px;
+    /* font-style:italic; */
+    color: rgb(8, 21, 131);
+    line-height: 1.2;
+    
+  }
+  </style>
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(121, 151, 14);}
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(116, 115, 167);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <center><h1  style="margin-top: 20px;" > <b> Trends for Play store and Apple store apps</b> </h1></center>    
+    <body>
+      
+      
+      <div class="navbar">
+        <a href="index.html">Introduction</a>
+        <a href="play_store.html">Play store Apps</a>
+        <a href="apple_store.html">Apple store Apps</a>
+        <a href="modelling_google.html">Modeling and Predictions</a>
+        <a href="summary.html">Summary</a>
+
+      </div>
+</body>
+
+<style>
+  img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  </style>  
+  <body>
+  
+  <a target="_blank" href="https://www.apple.com/app-store/">
+    <img style="vertical-align:middle; margin:30px 625px;" src="apple.png" alt="Forest">
+
+  </a>
+
+  <center><h4 style="margin-left: 4; font-size: 20px;">Modelling and Predictions for Apple store data</h4></center>
+  <center><h4 style="margin-left: 4; font-size: 20px;">Linear Regression Model</h4></center>
+  
+    <p class="ex2"  style="font-size:18px; margin-left: 340px; margin-right: 340px;"> RMSE: [ 60435.94210342  46684.33216459  96876.08646979  66334.44558189
+        59424.29596076  84767.27806751  38377.42206152 132026.84549755
+        45596.79398236  43017.264559  ]</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> MEAN: 67354.07064483808</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> STD: 27931.45530182575</p> 
+
+    <br>
+    <br>
+
+    <center><h4 style="margin-left: 4; font-size: 20px;">Decision tree Regresser</h4></center>
+  
+    <p class="ex2"  style="font-size:18px; margin-left: 340px; margin-right: 340px;"> RMSE: [100510.7199664   93283.68500549 137278.59925209  50886.17205662
+        47867.56259863  86107.35321522 133071.53428236  80667.1301311
+       112751.3363048  134113.66371169]</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> MEAN: 97653.77565244058</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> STD: 30816.887615708478</p> 
+
+
+    <center><h4 style="margin-left: 4; font-size: 20px;">Support Vector Regressor</h4></center>
+  
+    <p class="ex2"  style="font-size:18px; margin-left: 340px; margin-right: 340px;"> RMSE: [ 75941.27434793  94660.64931387  61943.76373482  52565.76421138
+        64396.76362073  69882.57877478 122071.2640737   50721.35281777
+        53590.30397536 131054.4354008 ]</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> MEAN: 77682.81502711473</p>
+    <p class="ex2"  style="font-size:18px; margin-left: 340px;"> STD: 27447.150032656493</p> 
+
+
+  
+  
+
+  <br>
+  <br>
+
+
+  
+  
+  
