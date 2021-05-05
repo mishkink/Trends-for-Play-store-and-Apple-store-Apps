@@ -5,8 +5,8 @@ There are thousands of Mobile applications on Google Play store and Apple app st
 define the kind of applications that are likely to attract higher number of users. 
 Keywords: Apple app store, Google Play, Random Forest Classifier, Logistic Regression, K-Nearest Neighbor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4739437.svg)](https://doi.org/10.5281/zenodo.4739437)
 
-10.5281/zenodo.4739437
 Zenodo: https://zenodo.org/record/4739437#.YJLubpNKhQI
 
 Github.io : https://mishkink.github.io/viz/
