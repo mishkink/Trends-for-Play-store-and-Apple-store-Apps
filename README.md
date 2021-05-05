@@ -6,3 +6,4 @@ define the kind of applications that are likely to attract higher number of user
 Keywords: Apple app store, Google Play, Random Forest Classifier, Logistic Regression, K-Nearest Neighbor
 
 
+10.5281/zenodo.4739437
