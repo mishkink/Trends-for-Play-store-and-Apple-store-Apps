@@ -7,5 +7,6 @@ Keywords: Apple app store, Google Play, Random Forest Classifier, Logistic Regre
 
 
 10.5281/zenodo.4739437
-https://zenodo.org/record/4739437#.YJLubpNKhQI
-https://mishkink.github.io/viz/
+Zenodo: https://zenodo.org/record/4739437#.YJLubpNKhQI
+
+Github.io : https://mishkink.github.io/viz/
